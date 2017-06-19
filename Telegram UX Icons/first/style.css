@@ -40,7 +40,7 @@ a { text-decoration: none; color: inherit; }
 	float: left; 
 	width: 300px; height: 30px; 
 	background-color: #bfbfbf; 
-	margin: 10px 10px; 
+	margin: 10px; 
 }
 
 .avatar {
@@ -58,3 +58,23 @@ a { text-decoration: none; color: inherit; }
 	background-color: red; 
 	padding: 4px; 
 }
+
+.nav {
+	width: 200px; 
+	background-color: green;
+	float: right;
+	margin: 10px;
+}
+
+li {
+	float: left;
+	list-style-type: none;
+}
+
+li a {
+	display: block;
+	width: 30px; height: 30px;
+	background-color: orange;
+	border: 1px solid red;	
+}
+
