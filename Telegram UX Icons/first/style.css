@@ -33,13 +33,14 @@ a { text-decoration: none; color: inherit; }
 
 .header {
 	width: 100%; height: 50px; 
-	background-color: #1f1f1f; 
+	background-color: #bcbcbc; 
+	display: inline-block;
 }
 
 .ucontrol {
 	float: left; 
 	width: 300px; height: 30px; 
-	background-color: #bfbfbf; 
+/* 	background-color: #bfbfbf;  */
 	margin: 10px; 
 }
 
@@ -49,32 +50,67 @@ a { text-decoration: none; color: inherit; }
 	border-radius: 50%;  
 	margin-right: 10px; 
 	float: left; 
+	background-image: url("https://avatarfiles.alphacoders.com/495/49573.jpg");
+	-webkit-background-size: 30px;
+	background-size: 30px;
+	background-position: center center;
 }
 
 .uname {
 	color: #000; 
 	font-weight: 900; 
 	float: left; 
-	background-color: red; 
+/* 	background-color: red;  */
 	padding: 4px; 
 }
 
 .nav {
 	width: 200px; 
-	background-color: green;
+/* 	background-color: green; */
 	float: right;
 	margin: 10px;
+	text-align: center;
 }
 
 li {
 	float: left;
 	list-style-type: none;
+	margin-right: 10px;
+}
+
+li:last-child {
+	margin-right: 0;
 }
 
 li a {
 	display: block;
-	width: 30px; height: 30px;
+	width: 60px; height: 25px;
 	background-color: orange;
-	border: 1px solid red;	
+	
+	padding-top: 5px;
+/* 	border: 1px solid red; */	
 }
 
+
+
+/* ------------------------------------------------------------ *\
+	Body
+\* ------------------------------------------------------------ */
+.bg {
+	display: inline-block;
+	background-color: #d1d1d1;
+	clear: both;
+	height: 600px;
+	width: 100%;
+/* 	padding-top: 500px; */
+	
+}
+
+.control {
+	margin: 0 auto;
+	width: 900px; height: 500px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+
+}
