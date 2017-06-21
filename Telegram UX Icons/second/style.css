@@ -65,9 +65,10 @@ a { text-decoration: none; color: inherit; }
 
 .nav {
   float: right;
-  width: 500px; height: 30px;
+  width: 310px; height: 30px;
   background-color: #bbf;
   margin: 10px;
+	text-align: center;
 }
 
 li {
@@ -80,7 +81,11 @@ li {
 
 li a {
   display: block;
-  width: 100px; height: 10px;
+  width: 100px; height: 28px;
+}
+
+a {
+	padding-top: 2px;
 }
 
 li:last-child {
