@@ -1,3 +1,125 @@
-body {
-  background-color: #2b2b2b;
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+
+* {
+  margin: 0; padding: 0; border: 0;
 }
+
+
+ol, ul {
+  list-style-type: none;
+}
+
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { font: normal 400 15px/1.69 'Open Sans', sans-serif; color: rgb(68, 68, 68); background: #fff; }
+
+a { text-decoration: none; color: inherit; }
+
+/* ------------------------------------------------------------ *\
+	Helper
+\* ------------------------------------------------------------ */
+
+.shell:after { content: ''; display: table; line-height: 0; clear: both; }
+.hidden { display: none; }
+
+
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+  width: 100%; height: 50px;
+  background-color: #000;
+}
+
+.user {
+  float: left;
+  width: 300px; height: 30px;
+  background-color: #a2a2a2;
+  margin: 10px;
+}
+
+.avatar {
+  width: 30px; height: 30px;
+  background-color: green;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+}
+
+.uname {
+  background-color: red;
+  margin-left: 5px;
+  padding-top: 4px;
+  font-weight: bolder;
+  float: left;
+}
+
+.nav {
+  width: 310px; height: 30px;
+  background-color: #a2a2a2;
+  float: right;
+  margin: 10px;
+}
+
+li {
+  background-color: orange;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+}
+
+li a {
+  display: block;
+  width: 100px; height: 28px;
+}
+
+a {
+  padding-top: 2px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+.bigbg {
+  background-color: #2b2b2b;
+  padding-top: 100px;
+}
+
+.control {
+  width: 700px; height: 600px;
+  background-color: #ababab;
+  margin: 0 auto;  
+}
+
+.lblock {
+  float: left;
+  width: 300px; height: 600px;
+  background-color: #7b7b7b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
