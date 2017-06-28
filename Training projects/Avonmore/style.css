@@ -7,7 +7,7 @@
 }
 
 ul li {
-  
+  list-style-type: none;
 }
 /* ---------------------------------------------------------- *\
   Tests
@@ -58,6 +58,7 @@ p.smtext {
   font-size: 12px;
   font-weight: normal;
   line-height: 17.14px;
+  padding-bottom: 80px;
 }
 
 
@@ -160,14 +161,48 @@ p.sltext {
 .wemake {
   width: 1170px;
   background-color: #fff;
-  position: relative;
   margin: 0 auto;
+  position: relative;
+  height: 500px;
 }
 
+.wemake .item {
+/*   background-color: red; */
+  width: 350px; height: 120px;
+  float: left;
+  margin:  10px 20px;
+  position: relative;
+ padding-top: 20px;
+  
+}
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25.2px;
+  margin-bottom: 10px;
+  padding-left: 60px
+}
 
+.item p {
+/*   color: yellow; */
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 60px;
+}
 
+.icon {
+/*   background-color: yellow; */
+  width: 36px; height: 40px;
+  position: absolute;
+  z-index: 3;
+}
 
+.icon img {
+  width: 36px; height: 40px;
+}
 
 
 
