@@ -23,6 +23,11 @@ body {
   Helpers
 \* ---------------------------------------------------------- */
 
+
+.shell:after { content: ''; display: table; line-height: 0; clear: both; }
+.hidden { display: none; }
+
+
 em {
 /*   color: #fff; */
   font-family: 'Kaushan Script', cursive;
@@ -34,6 +39,9 @@ em {
 
 .centering {
   text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-top: 100px;
 }
 
 h2 {
@@ -59,6 +67,14 @@ p.smtext {
   font-weight: normal;
   line-height: 17.14px;
   padding-bottom: 80px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #7a7a7a;
+  line-height: 24px;
 }
 
 
@@ -152,18 +168,17 @@ p.sltext {
 \* ---------------------------------------------------------- */
 
 .wedo {
+/*   background-color: #b2b2b2; */
   width: 100%;
   padding: 130px 0;
   position: relative;
-  background-color: #b2b2b2;
+  clear: both;
 }
 
 .wemake {
-  width: 1170px;
-  background-color: #fff;
-  margin: 0 auto;
-  position: relative;
-  height: 500px;
+/*   background-color: #ff0; */
+  width: 100%;
+  height: 300px;
 }
 
 .wemake .item {
@@ -204,8 +219,70 @@ h3 {
   width: 36px; height: 40px;
 }
 
+/* ---------------------------------------------------------- *\
+  about section
+\* ---------------------------------------------------------- */
+
+.about {      /* Tuka zabravih kak se svalq 6torata :D i zaradi tova mu nabih nqkakva opredelena viso4ina */
+  background-color: #0f0;
+  width: 100%; height: 411px;
+  padding-top: 200px;
+  background-image: url("http://avonmore.gtcreators.com/images/section-bg/section-bg-4.jpg");
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+ }
+
+.lb {
+  float: left;
+  width: 457px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.rb {
+  float: right;
+  margin-right: 100px;
+}
+
+.rb img {
+  height: 411px;
+}
+
+.lb > button {
+  margin-top: 50px;
+}
 
 
+/* ---------------------------------------------------------- *\
+  portfolio
+\* ---------------------------------------------------------- */
+
+.portfolio {
+  width: 100%; 
+  background-color: #0f0;
+}
+
+.pitems {
+  font-size: 0;
+  position: relative;
+  width: 100%; height: 400px;
+  background-color: #f00;
+}
+
+.pitems li {
+  display: inline-block;  
+  width: 25%;
+  height: 23vw;
+  background-color: #2b2b2b;  
+}
+
+.pitems img {
+  display: inline-block;  
+   width: 100%;
+  height: 23vw;
+  background-color: #2b2b2b;
+}
 
 
 /* ---------------------------------------------------------- *\
