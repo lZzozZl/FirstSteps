@@ -414,6 +414,148 @@ h3 {
   margin-top: 50px;
 }
 
+.post h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+
+
+/* ---------------------------------------------------------- *\
+  Tests
+\* ---------------------------------------------------------- */
+
+.blog {
+  padding: 100px 0;
+  width: 100%;
+/*   background-color: orange; */
+}
+
+.top-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.pcontrol {
+  margin: 0 auto;
+  width: 100%;
+/*   background-color: red; */
+  
+}
+
+.pcontrol-two {
+  background-color: #fff;
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+
+
+.post {
+  width: 300px;
+/*   background-color: #0ff; */
+  padding: 0 20px;
+  display: inline-block;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.post img {
+   height: 100%;
+   width: 100%;
+}
+
+.date {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 10px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+
+.rmore {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 24px;
+  padding-bottom: 8px;
+}
+
+.yline {
+  width: 65px; height: 1px;
+  background-color: #fcca03;
+}
+
+
+
+/* ---------------------------------------------------------- *\
+  Testimonials
+\* ---------------------------------------------------------- */
+
+.testimonials {
+  padding: 100px 0;
+  background-color: red;
+  text-align: center;
+  background-image: url("http://avonmore.gtcreators.com/images/section-bg/section-bg-5.jpg");
+  -ms-background-position-x: 50%;
+  background-position-x: 50%;
+  -ms-background-position-y: 50%;
+  background-position-y: 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.testimonials .line {
+  margin-bottom: 80px;
+}
+
+.testimonials .shell {
+  max-width: 600px; height: 100px;
+  display: inline-block;
+}
+
+.testimonials p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #7a7a7a;
+}
+
+
+.name {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 29px;  
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  
+}
+
 /* ---------------------------------------------------------- *\
   Tests
 \* ---------------------------------------------------------- */
