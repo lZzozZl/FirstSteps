@@ -1,0 +1,194 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style-type: none;
+}
+
+body {
+  background-image: url("https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shcontrol {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shell {
+  width: 650px;
+  display: inline-block;
+  background-color: #202020;
+  clear: both;
+  padding-top: 100px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  
+ 
+}
+
+
+/* .nav {
+    width: 100%;
+    height: 100px;
+    background-color: #e8eef1;
+  position: fixed;
+}
+ 
+li {
+    list-style-type: none;
+    margin-right: 5px;
+    float: left;  
+    background-color: #1e3d58;
+    text-align: center;
+    width: 19%;
+  
+}
+
+li:hover {
+  background-color: #057dcd;
+}
+
+li a {
+    width: 100%; height: 20px;
+    padding: 30px 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: bolder;
+ }
+
+li:last-child {
+    margin-right: 0px;
+}
+*/
+
+
+.apps {
+  width: 100%;
+/*   background-color: #E8EEF1; */
+  text-align: center;
+  clear: both;
+  padding-top: 100px;
+  font-size: 0;
+  float: left;
+  width: 500px;
+}
+
+.pcontrol {
+  width: 100%;
+  height: 50px;
+/*   background-color: red; */
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+.logo {
+  margin-left: 40px;
+/*   background-color: yellow; */
+  margin-top: 10px;
+  float: left;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.panel {
+  float: right;
+  width: 340px; height: 50px;
+/*   background-color: royalblue; */
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+  width: 50px; height: 50px;
+  margin-right: 1px;
+  background-color: #895809;
+  border: 1px solid  #fff;
+}
+
+.slcontrol{
+/*   background-color: red; */
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  margin: 0 auto;
+  clear: both;a
+}
+
+
+#slider {
+  display: inline-block;
+  width: 90%; height: 150px;
+  background-color: #4f8700;
+  margin: 20px 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 50px;
+  margin: 0 auto;
+  
+}
+
+.bcontrol {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  clear: both;
+}
+
+.app {
+  width: 120px; height: 90px;
+  background-color: #303030;
+  display: inline-block;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 5px;
+  margin-bottom: 35px;
+  font-size: 50px;
+  -moz-box-shadow:    6px 6px 3px 1px #111111;
+  -webkit-box-shadow: 6px 6px 3px 1px #111111;
+  box-shadow:         6px 6px 3px 1px #111111;
+}
+
+.nuu {
+  width: 50%; height: 90px;
+  background-color: #303030;
+  display: inline-block;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 5px;
+  margin-bottom: 35px;
+  font-size: 50px;
+  -moz-box-shadow:    6px 6px 3px 1px #111111;
+  -webkit-box-shadow: 6px 6px 3px 1px #111111;
+  box-shadow:         6px 6px 3px 1px #111111;
+}
+
+/* .app:nth-child(5n) {
+  margin-right: 40px;
+} */
+
+.app:last-child {
+  margin-right: 0;
+}
+
+ 
+.znaci{
+  float: right;
+  width: 150px;
+  text-align: center;
+  margin-top: 100px;
+/*   background-color: red; */
+}
+
+.znaci > .app {
+  display: inline-block;
+  margin-right: 300px;
+}
