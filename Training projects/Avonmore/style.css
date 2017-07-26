@@ -9,6 +9,10 @@
 ul li {
   list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+}
 /* ---------------------------------------------------------- *\
   Tests
 \* ---------------------------------------------------------- */
@@ -176,9 +180,10 @@ p.sltext {
 }
 
 .wemake {
-/*   background-color: #ff0; */
-  width: 100%;
+/*   background-color: yellow; */
+  max-width: 1170px;
   height: 300px;
+  margin: 0 auto;
 }
 
 .wemake .item {
@@ -231,6 +236,7 @@ h3 {
   background-position: 50% 50%;
   -webkit-background-size: cover;
   background-size: cover;
+  display: table;
  }
 
 .lb {
@@ -238,6 +244,7 @@ h3 {
   width: 457px;
   margin-left: 100px;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .rb {
@@ -247,6 +254,7 @@ h3 {
 
 .rb img {
   height: 411px;
+  display: table-row;
 }
 
 .lb > button {
@@ -334,7 +342,7 @@ h3 {
 .mfControl {
   margin: 0 auto;
 /*   background-color: green; */
-  width: 1100px;
+  max-width: 1120px;
   clear: both;
   overflow: hidden; /* https://stackoverflow.com/questions/9538247/css-background-disappears-when-using-floatleft
                        https://stackoverflow.com/tags/css-floating/info
@@ -353,7 +361,8 @@ h3 {
 /*   background-color: red; */
   margin-top: 100px;
   width: 585px;
-  float: right;
+  float: left;
+  margin-left: 20px;
   
 }
 
@@ -555,6 +564,176 @@ h3 {
   line-height: 20px;
   
 }
+
+
+
+/* ---------------------------------------------------------- *\
+  Contact
+\* ---------------------------------------------------------- */
+
+.contact {
+  padding: 100px 0;
+/*   background-color: lightskyblue; */
+  width: 100%;
+  text-align: center;
+}
+
+.contacts {
+/*   background-color: yellow; */
+}
+
+.contacts li {
+/*   background-color: royalblue; */
+  width: 300px;
+  display: inline-block;
+}
+
+.contacts li img {
+  height: 50px;
+}
+
+.contcontrol {
+  display: inline-block;
+  max-width: 460px;
+  margin-bottom: 50px;
+}
+
+.contcontrol p {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 17px;
+  color: #7a7a7a;
+
+}
+
+.contcontrol .line {
+  margin-bottom: 20px;
+}
+
+
+
+/* ---------------------------------------------------------- *\
+  Pre Footer
+\* ---------------------------------------------------------- */
+
+.prefooter {
+  padding: 50px 0;
+  background-color: #2b2b2b;
+}
+
+.fscontrol {
+/*   background-color: red; */
+  max-width: 1116px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.fsection {
+/*   background-color: royalblue; */
+  margin: 0 10px;
+  float: left;
+  width: 352px;
+}
+
+.fsection h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.fsection .line {
+  background-color: #fcca03;
+  margin-bottom: 26px;
+}
+
+.fsection p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 28px;
+}
+
+.fsection .icon img {
+  height: 15px; width: 15px;
+  padding-top: 5px;
+}
+
+ .fphone p {
+/*   background-color: yellow; */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+ .fmail p {
+/*   background-color: yellow; */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+ .fadress p {
+/*   background-color: yellow; */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.fgitems {
+  display: inline-block;
+}
+
+.article {
+  position: relative;
+}
+
+.article pic {
+  display: inline-block;
+/*   background-color: skyblue; */
+  position: absolute;
+  left: 0;top: 0;
+  
+}
+
+.article p { 
+  position: absolute;
+  left: 65px; top: 10px;
+/*   background-color: darkorange; */
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.article p span {
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 10px;
+}
+
+
+
+
+.footer {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #232424;
+  color: #777777;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+
+
+
+
+
+
 
 /* ---------------------------------------------------------- *\
   Tests
