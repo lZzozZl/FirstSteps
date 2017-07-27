@@ -16,7 +16,7 @@ function acc(x) {
     document.getElementById('pTwo').style.display = "none";
     document.getElementById('pThree').style.display = "block";   
     
-  }
-  
-  
+  }  
 }
+
+
