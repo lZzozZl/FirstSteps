@@ -5,6 +5,7 @@
   <title>Avonmore</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato|Raleway" rel="stylesheet">
+  <script src="script.js" ></script>
 </head>
 <body>
 
@@ -221,19 +222,31 @@
       <div class="worklist">
         <ul>
           <li>
-            <img src="https://image.flaticon.com/icons/svg/54/54408.svg" alt="phone">
-            <p>FULLY RESPONSIVE</p>
-            <p>In vitae fermentum turpis. Vivamus sed lacus dignissim, sagittis nibh eu, luctus justo. Nulla tincidunt rhoncus lectus sed pulvinar. Nullam ac ante sit amet mauris.</p>
+            <div id="accOne" class="accordion" onclick="acc(this)">
+              <img src="https://image.flaticon.com/icons/svg/54/54408.svg" alt="phone">
+              <p>FULLY RESPONSIVE</p>
+            </div>
+            <div id="pOne" class="panel">
+              <p>In vitae fermentum turpis. Vivamus sed lacus dignissim, sagittis nibh eu, luctus justo. Nulla tincidunt rhoncus lectus sed pulvinar. Nullam ac ante sit amet mauris.</p>
+            </div>
           </li>
           <li>
-            <img src="https://image.flaticon.com/icons/svg/54/54909.svg" alt="diamond">
-            <p>RETINA READY</p>
-            <p>Un vitae fermentum turpis. Vivamus sed lacus dignissim, sagittis nibh eu, luctus justo. Nulla tincidunt rhoncus lectus sed pulvinar. Nullam ac ante sit amet mauris.</p>
+            <div id="accTwo" class="accordion" onclick="acc(this)">
+              <img src="https://image.flaticon.com/icons/svg/54/54909.svg" alt="diamond">
+              <p>RETINA READY</p>
+            </div>
+            <div id="pTwo" class="panel">
+              <p>Un vitae fermentum turpis. Vivamus sed lacus dignissim, sagittis nibh eu, luctus justo. Nulla tincidunt rhoncus lectus sed pulvinar. Nullam ac ante sit amet mauris.</p>
+            </div>
           </li>
           <li>
-            <img src="https://image.flaticon.com/icons/svg/54/54176.svg" alt="brush">
-            <p>MINIMAL DESIGN</p>
-            <p>An vitae fermentum turpis. Vivamus sed lacus dignissim, sagittis nibh eu, luctus justo. Nulla tincidunt rhoncus lectus sed pulvinar. Nullam ac ante sit amet mauris.</p>
+            <div id="accThree" class="accordion" onclick="acc(this)">
+              <img src="https://image.flaticon.com/icons/svg/54/54176.svg" alt="brush">
+              <p>MINIMAL DESIGN</p>
+            </div>
+            <div id="pThree"class="panel">
+              <p>An vitae fermentum turpis. Vivamus sed lacus dignissim, sagittis nibh eu, luctus justo. Nulla tincidunt rhoncus lectus sed pulvinar. Nullam ac ante sit amet mauris.</p>
+            </div>
           </li>
         </ul>      
       </div><!--     worklist -->
@@ -440,5 +453,7 @@
   
   
   </div><!--   wrapper -->
+  
+  <script>document.getElementById('pOne').style.display = "block";</script>
 </body>
 </html>

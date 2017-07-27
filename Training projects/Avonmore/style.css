@@ -405,9 +405,41 @@ h3 {
   
 }
 
-.worklist img {
-  width: 10px; height: 10px;
+.worklist {
+/*   background-color: red; */
+/*   position: relative; */
 }
+
+
+.worklist img {
+  width: 15px; height: 15px;
+  display: inline-block;
+  border: 1px solid  #000;
+  padding: 5px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.accordion {
+/*   background-color: green;   */
+}
+
+.accordion p {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+  
+}
+
+
+
+.panel {
+  display: none;
+  margin-left: 15px;
+}
+
 
 .worklist p {
   width: 400px;
