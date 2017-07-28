@@ -344,14 +344,34 @@ li:last-child {
 }
 
 .prefooter .coll .footer-logo {
-  height: 80px;
+  height: 40px;
   width: 200px;
   background-color: darkmagenta;
+	margin-bottom: 26px;
 }
 
 .prefooter .coll img {
   height: 100%;
 }
+
+.coll p {
+	color: #f5f5f5;
+  font-family: 'Lora', serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 26px;
+	margin-bottom: 26px;
+}
+
+.fnav li {
+	color: #fff;
+	text-decoration: none;
+	background-color: skyblue;
+	margin-bottom: 15px;
+}
+
+
 
 
 
