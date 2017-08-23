@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+/* helper     ###################### */
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Comfortaa', cursive;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+/* Wrapper     ###################### */
+.wrapper {
+  background-color: #fdfdfd;
+  height: 100vh;
+}
+
+/* Container     ###################### */
+.shell {
+  max-width: 1200px;
+/*   background-color: yellow; */
+  padding-top: 150px;
+  margin: 0 auto;
+
+}
+
+/* Container     ###################### */
+.container {
+/*   background-color: red; */
+}
+
+
+/* Cards     ###################### */
+.cards {
+/*   background-color: blue;   */
+}
+.cards li {
+/*   background-color: lightblue; */
+  float: left;
+  margin: 20px 20px;
+  padding: 1px;
+  color: #fff;
+}
+
+.cards a {
+/*   background-color: orange; */
+  height: 300px; 
+  width: 195px;
+  display: block;
+  border: 1px solid  #2196f3; 
+  text-align: center; 
+}
+
+
+.ttt {
+  margin-top: 110px;
+  background-color: rgba(45,45,45,0.5);
+}
+
+
+
+
+.cards a:hover{
+  border: 1px solid #2196F3;
+  -webkit-box-shadow: 0px 0px 6px 1px #126db5;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 0px 6px 1px #126db5;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 0px 6px 1px #126db5;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  
+}
+
+
+
+
+
+/* ############################################################## */
+
+
+
+
+
+
+
+.calc {
+  background: url("http://i.imgur.com/w0bpEey.png");  
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+}
+
+.avonmore {
+  background: url("https://camo.envatousercontent.com/412f2389fcdd8e0deb180301dd430a95980ed80d/687474703a2f2f61766f6e6d6f72652e677463726561746f72732e636f6d2f43616e7661732e6a7067");  
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+}
+
+.lords {
+  background: url("http://www.game-debate.com/pic.php?g_id=8987&game=Heroes%20of%20the%20Storm");  
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+}
+
+.training {
+  background: url("https://creativebeacon.com/wp-content/uploads/2013/09/blueprint-infographic-elements_17.jpg");  
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+}
+
+.telegram {
+  background: url("https://www.stickerstelegram.com/wp-content/uploads/2016/09/ux.jpg");  
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+}
+
+
+
+
+
+
+
+
+
